@@ -19,7 +19,7 @@ exports.forgotPassword=async(req,res)=>{
          sgMail.setApiKey(process.env.SENDGRID_API_KEY)
     
 const msg={
-to:'muhammed.ladeed123@gmail.com',
+to:'bhat.sanchit@gmail.com',
   from:'yj.rocks.2411@gmail.com',
   subject: 'Sending with SendGrid is Fun',
   text: 'and easy to do anywhere, even with Node.js',
